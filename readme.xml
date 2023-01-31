@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="../XSLT/Overview.xslt" type="text/xsl"?>
+<sample>
+  <name>ClassicDataToolsDemo</name>
+  <contents>
+    <content linkto="overview">Overview</content>
+    <content linkto="howToRun">How to use this program with the Classic Data File Tools</content>
+  </contents>
+  <overview>
+    <heading>Overview</heading>
+    <directory>Samples\ClassicDataToolsDemo</directory>
+    <description>This sample is a simple native COBOL application containing record layout definitions 
+                 used in the Classic Data File Tools tutorial.</description>
+  </overview>
+  <howToRun>
+    <heading>How to use this program with Classic Data File Tools</heading>
+    <steps>
+      <step>
+        <description>To use this demonstration in Eclipse:</description>
+        <steps>
+          <step>Add the ClassicDataToolsDemo folder to a Workspace.</step>
+          <step>Build the application.</step>
+          <step>Follow the Classic Data File Tools tutorial.</step>
+        </steps>
+      </step>
+      <step>
+        <description>To use this demonstration in Visual Studio:</description>
+        <steps>
+          <step>Open the ClassicDataToolsDemo solution.</step>
+          <step>Build the solution.</step>
+          <step>Follow the Classic Data File Tools tutorial.</step>
+        </steps>
+      </step>
+    </steps>
+  </howToRun>
+</sample>
